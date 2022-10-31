@@ -1,0 +1,10 @@
+:root {
+  /* --primary: #30d5c8; */
+  --primary: #008080;
+  --logo: #0a1b32;
+  --text-dark: #1b0a42;
+  --text-light: #9a9a9a;
+  --white: #ffffff;
+  --container: 122rem;
+  --nav-height: 7rem;
+}

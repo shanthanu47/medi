@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@400;500;700&display=swap");
 *,
 *::before,
 *::after {
@@ -9,28 +9,17 @@
   list-style-type: none;
 }
 
-:root {
-  --primary: #824FF1;
-  --logo: #0A1B32;
-  --text-dark: #1B0A42;
-  --text-light: #9A9A9A;
-  --white: #ffffff;
-  --container: 122rem;
-  --nav-height: 7rem;
-}
-
-
 /* scrollbar code */
 
 ::-webkit-scrollbar {
   width: 1.2rem;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 1.2rem;
 }
@@ -103,7 +92,7 @@
 .section-heading {
   font-size: 7.2rem;
   line-height: 7.6rem;
-  font-family: 'Ramaraja', serif;
+  font-family: "Ramaraja", serif;
   color: var(--text-dark);
 }
 
@@ -130,14 +119,14 @@
   width: 100%;
 }
 
-@media (max-width:939px) {
+@media (max-width: 939px) {
   .section-heading {
     font-size: 6rem;
     line-height: 6rem;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .section-heading {
     font-size: 4rem;
     line-height: 4rem;
@@ -162,7 +151,7 @@
   }
   .mobile_menu_toggle::before,
   .mobile_menu_toggle::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     width: 100%;
@@ -214,7 +203,7 @@
   }
 }
 
-@media (max-width:577px) {
+@media (max-width: 577px) {
   .hero_image {
     grid-row: 1;
   }
