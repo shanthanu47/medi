@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 5rem;
   margin-top: 5rem;
+  align-items: left;
 }
 
 .aasanaMainContainer {
@@ -11,9 +12,9 @@
   align-items: center;
 }
 
-.aasanaContainer {
+.aasanaContainer {               /* used to align text and images of assana page */
   display: flex;
-  margin-left: auto;
+  margin-left: 50px;
   margin-right: auto;
   gap: 1rem;
 }
@@ -33,6 +34,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  
 }
 
 .aasanaTextContainer h1 {
