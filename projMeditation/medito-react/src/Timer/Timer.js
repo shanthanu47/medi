@@ -33,7 +33,7 @@ const TimerPage = () => {
     <div className="timerContainer">
       <div className="timerOutline">
         <div className="meditationImgContainer">
-          <img src="./images/image.svg" />
+          <img src="./images/256cc202c3077884420cea267853ad52.jpg" />
         </div>
         {formatTime(timer)}
         <div className="buttonContainer">

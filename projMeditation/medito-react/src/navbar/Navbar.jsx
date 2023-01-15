@@ -4,7 +4,7 @@ const Navbar = ({ signInWithGoogle }) => {
   return (
     <nav className="navigation">
       <a href="#!" className="logo">
-        Medi.
+        Webitate.
       </a>
       <div className="mobile_menu_icon">
         <div className="mobile_menu_toggle"></div>
